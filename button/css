@@ -1,0 +1,13 @@
+:roo
+{
+--state-button-Light-Deaful: #FFA740
+--state-button-Light-Hover: #FFBD70
+--state-button-Light-Press: #FFD39F
+--state-button-Light-Desible: #FFF4E7
+--state-button-Dark-Deaful: #A263F2
+--state-button-Dark-Hover: #B98AF5
+--state-button-Dark-Press: #D1B1F9
+--state-button-Dark-Desible: #F3ECFD
+--state-text-Deaful: #2D2D2D
+--state-text-Desible: #010003
+}

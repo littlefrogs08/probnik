@@ -21,6 +21,12 @@
     <div class="split_button_separator"></div>
     <div class="button_arrow material-symbols-outlined">arrow_drop_down</div>
 </div>
+  
+  <button class="button">
+    <span class="material-symbols-outlined icon">home</span>
+    <span>button</span>
+    <span class="material-symbols-outlined icon">home</span>
+</button>
 
 </body>
 </html>
