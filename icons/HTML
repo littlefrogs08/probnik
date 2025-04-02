@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кнопка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar_web">
+      
+    <button1 class="button_web">
+     <span class="icon-container_web">
+        <span class="material-symbols-outlined icon_web">save</span>
+    </span>
+        Сохранить
+    </button1>
+    
+    <div class="separator_web"></div>
+
+    <div class="split_button-container1">
+    <button class="split_button1">
+        <span class="icon-container_web1">
+            <span class="material-symbols-outlined icon4_web1">rotate_left</span>
+        </span>
+    </button>
+    <div class="button_arrow1 material-symbols-outlined">arrow_drop_down</div>
+</div>
+    <div class="split_button-container1">
+    <button class="split_button1">
+        <span class="icon-container_web1">
+            <span class="material-symbols-outlined icon4_web1">rotate_right</span>
+        </span>
+    </button>
+        
+    <div class="button_arrow1 material-symbols-outlined">arrow_drop_down</div>
+</div>
+      
+      <div class="separator_web"></div>
+      
+      <div class="combo-box-wrapper">
+    <select class="combo-box">
+        <option>Все узлы</option>
+        <option>Опция 2</option>
+    </select>
+    <span class="combo-box-arrow material-symbols-outlined">arrow_drop_down</span>
+</div>
+      <div class="split_button-container">
+    <button class="split_button">
+        <span class="icon-container_web">
+            <span class="material-symbols-outlined icon4_web">smart_display</span>
+        </span>
+        Подключить
+    </button>
+    <div class="split_button_separator"></div>
+    <div class="button_arrow material-symbols-outlined">arrow_drop_down</div>
+</div>
+
+      <button class="button_icon_web">
+            <span class="material-symbols-outlined icon3_web">stop</span>
+        </button>
+        
+      <button class="button_icon_web">
+            <span class="material-symbols-outlined icon2_web">install_desktop</span>
+        </button>
+      
+      <div class="separator_web"></div>
+      
+      <button class="button_icon_web">
+            <span class="material-symbols-outlined icon_web">pause</span>
+        </button>
+      <button class="button_icon_web">
+            <span class="material-symbols-outlined icon2_web">Step_Over</span>
+        </button>
+      
+      <div class="separator_web"></div>
+      
+      <button class="button_icon_web">
+            <span class="material-symbols-outlined icon2_web">terminal</span>
+        </button>
+  
+    
+ 
+      </div>
+</body>
+</html>

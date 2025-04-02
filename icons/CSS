@@ -1,0 +1,286 @@
+ body {
+            font-family: Arial, sans-serif;
+        }
+
+ .toolbar {
+            display: flex;
+            align-items: center;
+            background: #1A1A1A;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.split_button-container1 {
+    color:  #8AB7D0;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+    cursor: pointer;
+}
+.split_button1 {
+    color: #9DC38A;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* medium */
+    background: none;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.button_arrow1 {
+    color: .button_arrow {
+    color: ##9DC38A;
+    pointer-events: none; /* Чтобы не мешала клику на select */
+};
+    pointer-events: none; /* Чтобы не мешала клику на select */
+}
+.icon-container_web1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    margin-right: 16px;
+}
+.icon4_web1 {
+    color:  #8AB7D0;
+  font-size: 16px;}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 36px;
+    border: 1px solid #8AB7D0;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #8AB7D0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* medium */
+    line-height: 16px;
+    margin-right: 4px;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.button_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    padding: 0px;
+    border: 1px solid #8AB7D0;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #8AB7D0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* medium */
+    line-height: 16px;
+    margin-right: 4px;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-right: 4px;
+}
+
+.icon {
+    font-size: 16px;
+    color: #8AB7D0;
+}
+.icon2 {
+    font-size: 16px;
+    color: #E0E0E0;
+}
+.icon3 {
+    font-size: 0px;
+    color: #E8918A;
+}
+
+ .separator {
+            width: 2px;
+            height: 24px;
+            background: #ccc;
+            margin-right: 4px;
+        }
+
+/*--------------------------------------------------------------------------------------*/
+
+.toolbar_web {
+            display: flex;
+            align-items: center;
+            background: #1A1A1A;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+
+.combo-box-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.combo-box {
+    appearance: none; /* Скрывает стандартную стрелку */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 130px; /* Регулируй ширину по необходимости */
+    font-size: 16px;
+    background: #1A1A1A;
+    color: #E0E0E0;
+    padding: 9px 10px;
+    margin-right: 4px;
+    border: 2px solid #474747;
+    border-radius: 4px;
+}
+.combo-box-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #ffffff;
+    pointer-events: none; /* Чтобы не мешала клику на select */
+}
+
+.split_button-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #9DC38A;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.split_button {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* medium */
+    background: none;
+    border: none;
+    color: #9DC38A;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 8px;
+}
+
+.icon-container_web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-right: 16px;
+}
+.icon4_web {
+    font-size: 16px;
+    color: #9DC38A;
+}
+
+.button_arrow {
+    color: #9DC38A;
+    pointer-events: none; /* Чтобы не мешала клику на select */
+}
+
+.split_button_separator {
+    width: 1px;
+    height: 20px;
+    background-color: #9DC38A;
+    margin: 0 10px;
+}
+
+
+
+.button_web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 36px;
+    border: 0px solid #8AB7D0;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #8AB7D0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* medium */
+    line-height: 16px;
+    margin-right: 4px;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.button_icon_web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    padding: 0px;
+    border: 0px solid #8AB7D0;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #8AB7D0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* medium */
+    line-height: 16px;
+    margin-right: 4px;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.icon-container_web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-right: 4px;
+}
+
+.icon_web {
+    font-size: 16px;
+    color: #8AB7D0;
+}
+.icon2_web {
+    font-size: 16px;
+    color: #E0E0E0;
+}
+.icon3_web {
+    font-size: 0px;
+    color: #E8918A;
+}
+
+ .separator_web {
+            width: 1px;
+            height: 24px;
+            background: #707070;
+            margin-right: 4px;
+        }
+
